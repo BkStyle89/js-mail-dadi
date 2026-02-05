@@ -3,6 +3,8 @@
 //appropriate msg info
 //gioco di dadi
 
+/* invited list */
+
 const list = ['Marco@gmail.com','Antonio@gmail.com','Giuseppe@gmail.com','Francesco@gmail.com','Flavio@gmail.com','Mirko@gmail.com'];
 /* console.log(list); */
 
@@ -11,10 +13,13 @@ console.log(mail)
 
 let message = ('messaggio di invito')
 
-{if(list.includes(mail)) 
+/* {if(list.includes(mail)) 
     message = 'sei stato invitato'
     else
     message = 'non sei stato invitato'
 
-}
+} */
 console.log(message)
+
+
+/* dices game */
