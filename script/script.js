@@ -11,17 +11,24 @@ const list = ['Marco@gmail.com','Antonio@gmail.com','Giuseppe@gmail.com','France
 let mail = prompt('inserisci la tua mail')
 console.log(mail)
 
-let message = ('messaggio di invito')
+let found = false
 
 for(i=0;i<list.length;i++){
+    
     const invitati = list[i];
-    if (mail==invitati)
-        message = 'sei stato invitato'
-    else 
-        message = 'non sei stato invitato'
+    if (invitati==mail){
+        found = true
+    }
 
 }
-console.log(message)
+
+
+if (found){
+    console.log('sei stato invitato')
+}
+else {
+    console.log('non sei stato invitato')
+}
 /* {if(list.includes(mail)) 
     message = 'sei stato invitato'
     else
