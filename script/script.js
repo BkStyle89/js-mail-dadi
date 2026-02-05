@@ -42,10 +42,3 @@ else {
 const player = Math.floor(Math.random() *6) + 1;
 const computer = Math.floor(Math.random() *6) + 1;
 console.log(player,computer)
-
-if (Player > computer){
-    console.log('ha vinto il giocatore')
-}
-else {
-    console.log('ha vinto il computer')
-}
