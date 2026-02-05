@@ -9,7 +9,7 @@ const list = ['Marco@gmail.com','Antonio@gmail.com','Giuseppe@gmail.com','France
 /* console.log(list); */
 
 let mail = prompt('inserisci la tua mail')
-console.log(mail)
+/* console.log(mail) */
 
 let found = false
 
@@ -38,3 +38,14 @@ else {
 
 
 /* dices game */
+
+const player = Math.floor(Math.random() *6) + 1;
+const computer = Math.floor(Math.random() *6) + 1;
+console.log(player,computer)
+
+if (Player > computer){
+    console.log('ha vinto il giocatore')
+}
+else {
+    console.log('ha vinto il computer')
+}
