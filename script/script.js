@@ -13,13 +13,21 @@ console.log(mail)
 
 let message = ('messaggio di invito')
 
+for(i=0;i<list.length;i++){
+    const invitati = list[i];
+    if (mail==invitati)
+        message = 'sei stato invitato'
+    else 
+        message = 'non sei stato invitato'
+
+}
+console.log(message)
 /* {if(list.includes(mail)) 
     message = 'sei stato invitato'
     else
     message = 'non sei stato invitato'
 
 } */
-console.log(message)
 
 
 /* dices game */
